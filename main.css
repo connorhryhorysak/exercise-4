@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+main {
+    border: 1px solid red;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+body {
+    background-color: rgb(92,114,74);
+}
+header {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: rgb(245,245,213);
+    padding-bottom: 30px;
+}
+header h1 {
+    font-family: futura;
+    font-weight: bold;
+    font-size: 42px;
+    color: rgb(204, 85, 0);
+    padding: 30px;
+    background-color: rgb(245,245,213);
+}
+header a {
+    font-family: futura;
+    font-size: 18px;
+    text-decoration:none;
+    color: rgb(204, 85, 0);
+    background-color: rgb(245,245,213);
+    padding: 0px 10px 0px 10px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(245,245,213);
+    background-color: rgb(9, 9, 9);
+}
+/*article {
+    width: 300px;
+    padding: 20px;
+    margin: 0 4px 10px 4px;
+    background-color:black;
+    border-radius:25px;
+} */
+article {
+    width: 600px;
+    background-color:black;
+    margin: 0px auto;
+    padding: 30px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+article img {
+    margin: 0px 15px 15px 0px;
+    border: 3px solid rgb(245,245,213);
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+article h2 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+a:hover {
+    color:rgb(39, 55, 35);
+    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+}
+ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
+    list-style-type: none;
+}
+@media (min-width: 500px) {
+    ul {
+        grid-auto-flow: column;
+    }
+}
+a {
+    color:white;
+    text-decoration: none;
+    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4)
+}
+li:last-child {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+li:hover ~ li p {
+    animation: wave-animation .7s ease-out;
+}
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    33% {
+        transform: rotate(45deg)
+    }
+    66% {
+        transform: rotate(-25deg)
+    }
+}
+div {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(245,245,213);
+    font-family: futura;
+}
+footer p {
+    background-color: rgb(245,245,213);
+    color: rgb(204, 85, 0);
+    font-size: 18px;
+    rotate: 20deg;
+    text-align:start
+
+}
+footer a {
+    color: rgb(204, 85, 0);
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+
+}
+footer li {
+    color: rgb(245,245,213);
+    padding: 10px;
+    text-decoration: none;
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body {
+    background-color: rgb(245,245,213);
+}
+header {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: rgb(92,114,74);
+    padding-bottom: 20px;
+}
+header h1 {
+    font-family: futura;
+    font-weight: bold;
+    font-size: 42px;
+    color: rgb(245,245,213);
+    padding: 30px;
+    background-color: rgb(92,114,74);
+}
+nav {
+    width: 196px;
+    background-color: rgb(245,245,213);
+    margin: 0 auto;
+}
+ul {
+    font-family: futura;
+    font-size: 24px;
+    color: rgb(92,114,74);
+}
+li a {
+    color: rgb(204, 85, 0);
+}
+li {
+    margin-bottom: 50px;
+}
+a:hover {
+    color: rgb(39, 55, 35);
+}
+footer {
+    text-align: center;
+    background-color: rgb(92, 114, 74);
+    padding: 30px;
+    position: static;
+    left: 0;
+    right: 0;
+    
+}
+footer p {
+    font-family: futura;
+}
+footer a {
+    color: rgb(245,245,213);
+}
+footer a:hover {
+    color: rgb(204, 85, 0);
+}
+img {
+    width: 200px;
+    height: auto;
+}
